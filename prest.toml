@@ -1,0 +1,17 @@
+migrations = "./migrations"
+
+[http]
+port = 8000
+
+[jwt]
+default = false
+
+[pg]
+host = "127.0.0.1"
+user = "milugar_user"
+pass = "milugar"
+port = 5432
+database = "milugar"
+
+[ssl]
+mode = "disable"
